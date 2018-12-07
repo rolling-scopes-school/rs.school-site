@@ -1,0 +1,690 @@
+@import "rsschool_variables";
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap";
+// enbower
+
+// Media queries breakpoints
+$screen-desktop: 1024px;
+$screen-tablet: 767px;
+$screen-phone: 480px;
+
+$color-yellow: #ffff80;
+$color-alternative: #DFFFBE;
+$color-black: #000000;
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: $color-black;
+  padding: 0.2em 0;
+}
+
+/*------------------------------------*\
+   COMMON Styles
+\*------------------------------------*/
+
+body {
+  font-size: 1rem;
+}
+
+b,
+strong,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 500;
+}
+
+p,
+ol, ul, dl {
+  font-weight: 300;
+}
+
+main.container {
+  padding: 60px 15px;
+
+  @media (max-width: $screen-tablet) {
+    padding: 40px 15px;
+  }
+}
+
+.nav-link {
+  color: $color-black;
+}
+
+.field-required:after {
+  content: "*";
+  color: #f00;
+}
+
+.badge {
+  padding: 3px 4px 1px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+
+  &.badge-primary, &.badge-primary-alternative {
+    color: $color-black;
+    background: $color-yellow;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+  }
+  &.badge-primary-alternative {
+    background: $color-alternative;
+  }
+}
+
+mark, .mark {
+  color: $color-black;
+  background: $color-yellow;
+}
+
+.mark-alternative {
+  color: $color-black;
+  background: $color-alternative;
+}
+
+h4.badge-info {
+  line-height: 1rem;
+}
+
+.badge-secondary-gray {
+  color: #1a1a1a;
+  background-color: #eee;
+}
+
+.badge-secondary-gray[href]:hover, .badge-secondary-gray[href]:focus {
+  color: #1a1a1a;
+  text-decoration: none;
+  background-color: #e6e5e5;
+}
+
+.badge-primary a {
+  color: #fff;
+}
+
+.btn-feedback {
+  cursor: pointer;
+  font-size: 1rem;
+
+  i {
+    font-size: 2rem;
+    margin: 5px;
+  }
+}
+
+.jumbotron.light {
+  background: transparent;
+  padding: 4rem 0;
+}
+
+.jumbotron.accent {
+  background: #ffffcc;
+  padding: 1rem;
+
+  .form-control {
+    background: #fff;
+  }
+}
+
+.jumbotron {
+  .form-control {
+    background: #fff;
+  }
+}
+
+.contact-box {
+  //display: none;
+  max-width: 500px;
+  margin: 50px auto 0;
+}
+
+[class*="btn-outline-"] {
+  border-width: 2px;
+}
+
+/*------------------------------------*\
+   COURSE SELECTION Page
+\*------------------------------------*/
+.course-selection-page {
+  background: url("../images/landing-bg.jpg") no-repeat center center;
+  background-size: cover;
+
+  .logo-school {
+    height: 25vh;
+    max-width: 100%;
+
+    @media (max-width: $screen-phone) {
+      height: 15vh;
+    }
+  }
+
+  .course-btn-section {
+    padding: 20% 0 0;
+
+    .btn {
+      width: 80%;
+      font-size: 250%;
+      margin: 20px 0;
+
+      @media (max-width: $screen-phone) {
+        font-size: 150%;
+      }
+    }
+  }
+}
+
+/*------------------------------------*\
+   LANDING PAGE
+\*------------------------------------*/
+
+.landing-page {
+
+  section {
+    padding: 5rem 0;
+
+    &.section-promo .h1 {
+      text-align: right;
+      @media (max-width: $screen-tablet) {
+        text-align: center;
+      }
+    }
+
+    h2, h3 {
+      margin: 0 0 4rem;
+    }
+  }
+
+  h2, h3 {
+    text-align: center;
+  }
+
+  .badge {
+    white-space: normal;
+  }
+}
+
+.learning-path {
+  p {
+    margin: 0;
+  }
+  .col-md-1 {
+    text-align: center;
+  }
+  .stage-number {
+    display: inline-block;
+    padding: 0;
+    margin: 5px 0 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 26px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid $color-black;
+    border-radius: 50%;
+    background: $color-yellow;
+  }
+
+}
+
+.landing-page .section-medium {
+  border: 1px solid #ddd;
+  padding: 4rem 2rem;
+
+  .medium-article {
+    position: relative;
+    padding: 0 15px 10px 60px;
+
+    .h1 {
+      position: absolute;
+      left: 15px;
+      top: 0;
+    }
+    p.text-muted {
+      margin-top: 5px;
+    }
+  }
+}
+
+.sorting-hat {
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+/*------------------------------------*\
+   PARTNERS List
+\*------------------------------------*/
+
+.partner-list {
+  padding: 0;
+  -webkit-flex-flow: wrap row;
+  flex-flow: row wrap;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  li {
+    max-width: 160px;
+    margin: auto;
+    padding: .5em;
+    box-sizing: border-box;
+    text-align: center;
+
+    a {
+      img {
+        max-width: 100px;
+        max-height: 120px;
+        opacity: 0.4;
+        transition: opacity .5s;
+
+        @media (max-width: $screen-tablet) {
+          max-width: 100px;
+        }
+      }
+
+      &:hover {
+        img {
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+}
+
+/*------------------------------------*\
+   NAV Styles
+\*------------------------------------*/
+.navbar-brand img {
+  height: 70px;
+  @media (max-width: $screen-phone) {
+    height: 50px;
+  }
+}
+
+.navbar.container {
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  justify-content: space-between;
+  align-items: start;
+
+  .nav-general {
+    @media (max-width: $screen-tablet) {
+
+      .dropdown-item {
+        padding: 0.25rem 0.5rem;
+      }
+
+      .btn.dropdown-toggle {
+        padding: 0.25rem;
+      }
+    }
+  }
+
+  .dropdown-item {
+    i {
+      margin: 0 5px 0 0;
+    }
+  }
+
+  .dropdown-menu-right {
+    right: 0;
+    left: auto;
+  }
+
+  .navbar-brand {
+    padding-top: 0;
+    @media (max-width: $screen-tablet) {
+      margin-right: .5rem;
+    }
+  }
+
+  .nav-avatar {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+
+  @media (max-width: $screen-tablet) {
+    .nav {
+      //width: 100%;
+      margin-top: 10px;
+    }
+    .nav-link {
+      font-size: 0.7rem;
+      padding: 0.5rem;
+    }
+  }
+
+}
+
+.nav-stream-container {
+  @extend .container;
+  margin-top: 10px;
+}
+
+.stream-heading {
+  text-align: right;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 20px 0 0;
+
+  span {
+    color: #000;
+    background: $color-yellow;
+    padding: 0.2em 1em;
+    font-size: 1rem;
+    border: 2px solid #000;
+  }
+}
+
+.nav-stream {
+  //margin: -15px 0 0 0;
+  //padding: 20px 10px 10px 10px;
+  //border: 10px solid #ffff00;
+  //justify-content: flex-end;
+
+  margin: -13px 0 0 0;
+  padding: 25px 0 10px;
+  border: solid #000;
+  border-width: 2px 0 0;
+  justify-content: center;
+
+  @media (max-width: $screen-tablet) {
+    padding: 25px 10px 10px;
+    justify-content: space-around;
+    border: 2px solid #000;
+  }
+
+  .nav-item {
+    margin: 0;
+
+    @media (max-width: $screen-tablet) {
+      .nav-link {
+        padding: 0.5rem 0.5rem;
+      }
+    }
+  }
+
+}
+
+/*------------------------------------*\
+   STUDENT LIST Styles
+\*------------------------------------*/
+
+.student-list {
+  tr {
+    cursor: pointer;
+  }
+
+  .student-profile-container {
+    padding: 0 0 0 100px;
+    border: 0;
+
+    .jumbotron {
+      margin: 0;
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+.jumbotron .avatar {
+  width: 100%;
+}
+
+.card-body .jumbotron {
+  padding: 1rem 1rem;
+
+  .tab-pane {
+    max-width: 500px;
+    margin: 3rem auto;
+  }
+}
+
+/*------------------------------------*\
+   CARD Styles
+\*------------------------------------*/
+.card-deck .card {
+  min-height: 250px;
+}
+
+.card-header {
+  &:first-child {
+    border-radius: 0;
+  }
+  .score {
+    float: right;
+    font-weight: bold;
+  }
+}
+
+.card-footer {
+  background: none;
+  border: none;
+}
+
+/*------------------------------------*\
+   SCHEDULE Styles
+\*------------------------------------*/
+
+.schedule-desc {
+
+  padding: 0.5rem 0 3rem;
+
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.035);
+  }
+
+  .table .thead-dark th {
+    color: #55595c;
+    background-color: #ccc;
+    border-color: #ccc;
+  }
+
+  td p, th p {
+    @extend .col-form-label;
+  }
+
+  .card {
+    margin-top: -2px;
+  }
+
+  .card.past {
+    .card-header .btn-link {
+      color: #bbb;
+    }
+  }
+
+  & > .card > .card-header {
+    padding: 0;
+    .btn.btn-link {
+      position: relative;
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 1rem 1.25rem;
+      text-transform: capitalize;
+      text-decoration: none;
+      white-space: normal;
+
+      .row span:last-child {
+        text-align: right;
+      }
+
+      @media (max-width: $screen-tablet) {
+        span[class^="col"] {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .badge {
+      font-weight: normal;
+      font-size: .8rem;
+
+      &.badge-pill {
+        line-height: 1rem;
+      }
+    }
+  }
+
+  .student-mark-card {
+    .card-header {
+
+      a {
+        line-height: 1rem;
+      }
+    }
+    .student-avatar {
+      float: right;
+      max-width: 50px;
+      margin-left: 10px;
+    }
+
+  }
+
+}
+
+.schedule-desc--mentor {
+  .card-header {
+    .btn .row span:last-child {
+      text-align: left;
+    }
+  }
+}
+
+.student-mark-list {
+  .student-avatar {
+    width: 100%;
+    margin-bottom: 10px;
+    //max-width: 200px;
+  }
+}
+
+/*------------------------------------*\
+   TABLE Score
+\*------------------------------------*/
+
+.table-student-list,
+.table-mentor-list {
+
+  ul, p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (max-width: $screen-tablet) {
+    td, th {
+      font-size: .9rem;
+    }
+  }
+
+  @media (max-width: $screen-phone) {
+    td, th {
+      font-size: .6rem;
+    }
+  }
+}
+
+
+/*------------------------------------*\
+    LOGIN page
+\*------------------------------------*/
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50%;
+
+  img {
+    max-width: 350px;
+  }
+
+}
+
+/*------------------------------------*\
+   Sticky FOOTER Styles
+\*------------------------------------*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 40px; /* Margin bottom by footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+/*------------------------------------*\
+    MEDIA tablet
+\*------------------------------------*/
+
+@media (max-width: $screen-tablet) {
+  .form-control {
+    padding: 0.5rem;
+  }
+}
+
+/*------------------------------------*\
+    MEDIA PRINT a4
+\*------------------------------------*/
+
+@media print {
+
+  nav,
+  .footer,
+  .btn,
+  .btn-container {
+    display: none;
+  }
+
+  body {
+    padding: 0;
+    background: #fff;
+    font-size: 11pt;
+    color: #000;
+  }
+
+  .badge {
+    color: #000 !important;
+  }
+
+  a:link,
+  a:visited {
+    color: #000;
+    border: none;
+  }
+
+  main.container, .jumbotron {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  main > h2 {
+    font-size: 1rem;
+  }
+
+}
