@@ -296,6 +296,21 @@ h4.badge-info {
   }
 }
 
+.social-links {
+  @extend .partner-list;
+  justify-content: center;
+
+  li {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    i {
+      font-size: 1.5rem;
+    }
+  }
+
+}
+
 /*------------------------------------*\
    NAV Styles
 \*------------------------------------*/
