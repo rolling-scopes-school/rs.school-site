@@ -12,7 +12,6 @@
 
   function loginAndGetMyMentor() {
 
-    alert('Hello');
     document.getElementById('findMentor').parentNode.style.display = 'none';
 
     firebase.auth().signInWithPopup(new firebase.auth.GithubAuthProvider())
