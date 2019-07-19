@@ -479,14 +479,41 @@ h4.badge-info {
   }
 }
 
+
 .card-footer {
   background: none;
   border: none;
 }
 
-/*------------------------------------*\
-   SCHEDULE Styles
-\*------------------------------------*/
+
+.course-list {
+  margin: 100px 0 0 0;
+
+  .card-body {
+    padding-top: 80px;
+  }
+
+  .card > img {
+    padding: 20px 10px;
+  }
+
+  .card-title {
+    text-transform: uppercase;
+  }
+
+  .card-text {
+    color: #999;
+
+    i {
+      margin-right: 5px;
+    }
+  }
+
+}
+
+  /*------------------------------------*\
+     SCHEDULE Styles
+  \*------------------------------------*/
 
 .schedule-desc {
 
