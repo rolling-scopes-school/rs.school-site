@@ -467,6 +467,16 @@ h4.badge-info {
 \*------------------------------------*/
 .card-deck .card {
   min-height: 250px;
+
+  @media (max-width: $screen-tablet) {
+    margin-bottom: 15px;
+  }
+}
+
+.card-deck {
+  @media (max-width: $screen-tablet) {
+    flex-direction: column;
+  }
 }
 
 .card-header {
@@ -478,7 +488,6 @@ h4.badge-info {
     font-weight: bold;
   }
 }
-
 
 .card-footer {
   background: none;
