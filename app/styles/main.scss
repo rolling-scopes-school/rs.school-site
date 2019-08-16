@@ -68,6 +68,7 @@ main.container {
     font-weight: 600;
     text-align: left;
   }
+
   &.badge-primary-alternative {
     background: $color-alternative;
   }
@@ -207,9 +208,11 @@ h4.badge-info {
   p {
     margin: 0;
   }
+
   .col-md-1 {
     text-align: center;
   }
+
   .stage-number {
     display: inline-block;
     padding: 0;
@@ -239,6 +242,7 @@ h4.badge-info {
       left: 15px;
       top: 0;
     }
+
     p.text-muted {
       margin-top: 5px;
     }
@@ -304,6 +308,7 @@ h4.badge-info {
     max-width: 100%;
     padding: 0;
     margin: 0;
+
     i {
       font-size: 1.5rem;
     }
@@ -466,15 +471,14 @@ h4.badge-info {
    CARD Styles
 \*------------------------------------*/
 .card-deck .card {
-  min-height: 250px;
-
-  @media (max-width: $screen-tablet) {
-    margin-bottom: 15px;
-  }
+  margin: 20px 10px;
 }
 
 .card-deck {
-  @media (max-width: $screen-tablet) {
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  @media (max-width: 1000px) {
     flex-direction: column;
   }
 }
@@ -483,6 +487,7 @@ h4.badge-info {
   &:first-child {
     border-radius: 0;
   }
+
   .score {
     float: right;
     font-weight: bold;
@@ -520,9 +525,9 @@ h4.badge-info {
 
 }
 
-  /*------------------------------------*\
-     SCHEDULE Styles
-  \*------------------------------------*/
+/*------------------------------------*\
+   SCHEDULE Styles
+\*------------------------------------*/
 
 .schedule-desc {
 
@@ -554,6 +559,7 @@ h4.badge-info {
 
   & > .card > .card-header {
     padding: 0;
+
     .btn.btn-link {
       position: relative;
       display: block;
@@ -592,6 +598,7 @@ h4.badge-info {
         line-height: 1rem;
       }
     }
+
     .student-avatar {
       float: right;
       max-width: 50px;
