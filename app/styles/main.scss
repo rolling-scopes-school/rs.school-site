@@ -143,42 +143,16 @@ h4.badge-info {
   border-width: 2px;
 }
 
-/*------------------------------------*\
-   COURSE SELECTION Page
-\*------------------------------------*/
-.course-selection-page {
-  background: url("../images/landing-bg.jpg") no-repeat center center;
-  background-size: cover;
-
-  .logo-school {
-    height: 25vh;
-    max-width: 100%;
-
-    @media (max-width: $screen-phone) {
-      height: 15vh;
-    }
-  }
-
-  .course-btn-section {
-    padding: 10vh 0 0;
-
-    .btn {
-      width: 100%;
-      font-size: 250%;
-      margin: 20px 0;
-
-      @media (max-width: $screen-phone) {
-        font-size: 150%;
-      }
-    }
-  }
-}
 
 /*------------------------------------*\
    LANDING PAGE
 \*------------------------------------*/
 
 .landing-page {
+
+  .justify-content-md-center .lead {
+    font-size: 1.6rem;
+  }
 
   section {
     padding: 5rem 0;
@@ -472,6 +446,7 @@ h4.badge-info {
 \*------------------------------------*/
 .card-deck .card {
   margin: 20px 10px;
+  text-align: center;
 }
 
 .card-deck {
@@ -484,6 +459,7 @@ h4.badge-info {
 }
 
 .card-header {
+  font-weight: 500;
   &:first-child {
     border-radius: 0;
   }
@@ -501,22 +477,10 @@ h4.badge-info {
 
 
 .course-list {
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
 
-  .card-body {
-    padding-top: 80px;
-  }
-
-  .card > img {
-    padding: 20px 10px;
-  }
-
-  .card-title {
-    text-transform: uppercase;
-  }
 
   .card-text {
-    color: #999;
 
     i {
       margin-right: 5px;
