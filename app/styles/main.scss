@@ -8,12 +8,13 @@ $screen-desktop: 1024px;
 $screen-tablet: 767px;
 $screen-phone: 480px;
 
-$color-yellow: #ffff80;
-//$color-yellow: #FFD641;
+$color-yellow: lighten(#f7df1e, 15%);
 
-$color-alternative: #DFFFBE;
-//$color-alternative: #70ca41;
 
+$color-ios: lighten(#5fc9f8, 15%);
+
+
+$color-android: lighten(#a4c639, 15%) ;
 
 $color-black: #000000;
 
@@ -66,7 +67,8 @@ main.container {
   font-size: 0.875rem;
   line-height: 1.5;
 
-  &.badge-primary, &.badge-primary-alternative {
+  &.badge-primary, &.badge-primary-ios,
+  &.badge-primary-android {
     color: $color-black;
     background: $color-yellow;
     text-transform: uppercase;
@@ -74,8 +76,12 @@ main.container {
     text-align: left;
   }
 
-  &.badge-primary-alternative {
-    background: $color-alternative;
+  &.badge-primary-ios {
+    background: $color-ios;
+  }
+
+  &.badge-primary-android {
+    background: $color-android;
   }
 }
 
@@ -84,9 +90,14 @@ mark, .mark {
   background: $color-yellow;
 }
 
-.mark-alternative {
+.mark-ios {
   color: $color-black;
-  background: $color-alternative;
+  background: $color-ios;
+}
+
+.mark-android {
+  color: $color-black;
+  background: $color-android;
 }
 
 h4.badge-info {
@@ -285,7 +296,7 @@ h4.badge-info {
 
   li {
     max-width: 100%;
-    padding: 0;
+    padding: 0 4px;
     margin: 0;
 
     i {
