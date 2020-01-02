@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bef9dc1e-a67a-41ef-8de7-1fad677ab4b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/ios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/android/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/android/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/android-chrome-192x192.png" beforeDir="false" />
@@ -82,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577958206607</updated>
-      <workItem from="1577958207859" duration="1923000" />
+      <workItem from="1577958207859" duration="5743000" />
     </task>
     <servers />
   </component>
