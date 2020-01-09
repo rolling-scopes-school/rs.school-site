@@ -2,17 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bef9dc1e-a67a-41ef-8de7-1fad677ab4b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/images/people/dzianis-sheka.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/people/dzmitry-tsebruk.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/rsschool_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/rsschool_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/android/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/landing-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/partners/logo-devby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/partners/logo-epam.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/partners/logo-github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/partners/logo-imaguru.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/partners/logo-mobile-people-bw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/partners/logo-rs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/people/anton-bely.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/people/dzianis-sheka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/people/dzmitry-ramaniuk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/people/dzmitry-tsebruk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/people/sergey-shalyapin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/people/viktor-kovalev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/rs-school-android.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/rs_school-og.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/rs_school.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/rs_school.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/rs_school_ios.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/rs_school_js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ios/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/hat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/kazakhstan/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/poland/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/russia/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/styles/main.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577958206607</updated>
-      <workItem from="1577958207859" duration="17229000" />
+      <workItem from="1577958207859" duration="20557000" />
     </task>
     <servers />
   </component>
