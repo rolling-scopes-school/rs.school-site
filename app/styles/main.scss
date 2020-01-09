@@ -1,7 +1,10 @@
 @import "rsschool_variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 // bower:scss
-@import "../../bower_components/bootstrap/scss/bootstrap";
+//@import "../../bower_components/bootstrap/scss/bootstrap";
 // enbower
+
 
 // Media queries breakpoints
 $screen-desktop: 1024px;
@@ -88,6 +91,7 @@ main.container {
 mark, .mark {
   color: $color-black;
   background: $color-yellow;
+  padding: 0;
 }
 
 .mark-ios {
@@ -191,6 +195,10 @@ h4.badge-info {
 
   .badge {
     white-space: normal;
+  }
+
+  .card-text {
+    font-size: .9rem;
   }
 }
 
@@ -305,6 +313,7 @@ h4.badge-info {
   }
 
 }
+
 
 /*------------------------------------*\
    NAV Styles
