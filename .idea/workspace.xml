@@ -4,6 +4,7 @@
     <list default="true" id="bef9dc1e-a67a-41ef-8de7-1fad677ab4b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/android-chrome-192x192.png" beforeDir="false" />
@@ -28,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/docs/images/people/pavel-razuvalov.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/images/people/sergey-shalyapin.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/images/people/viktor-kovalev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/images/people/yulia-galuzo.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/images/rs-school-android.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/images/rs_school-og.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/images/rs_school.jpg" beforeDir="false" />
@@ -96,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577958206607</updated>
       <workItem from="1577958207859" duration="29289000" />
-      <workItem from="1578987891723" duration="444000" />
+      <workItem from="1578987891723" duration="1448000" />
     </task>
     <servers />
   </component>
