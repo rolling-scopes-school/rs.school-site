@@ -1,9 +1,6 @@
 @import "rsschool_variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// bower:scss
-//@import "../../bower_components/bootstrap/scss/bootstrap";
-// enbower
 
 
 // Media queries breakpoints
@@ -514,6 +511,7 @@ h4.badge-info {
 
 .card-header {
   font-weight: 500;
+  text-transform: uppercase;
   &:first-child {
     border-radius: 0;
   }
