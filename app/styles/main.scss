@@ -1,19 +1,12 @@
 @import "rsschool_variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-
-
 // Media queries breakpoints
 $screen-desktop: 1024px;
 $screen-tablet: 767px;
 $screen-phone: 480px;
-
 $color-yellow: lighten(#f7df1e, 15%);
-
-
 $color-ios: lighten(#5fc9f8, 15%);
-
-
 $color-android: lighten(#a4c639, 15%) ;
 
 $color-black: #000000;
