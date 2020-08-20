@@ -4,7 +4,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "gulp build"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",

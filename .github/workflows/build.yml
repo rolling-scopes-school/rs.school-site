@@ -16,12 +16,16 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - name: npm install, build
+      - name: Clean up
+        run: |
+          rm -rf styles/main.css
+      - name: Install
         run: |
           npm i -g bower
           npm install
           bower install
-          rm -rf styles/main.css
+      - name: Build
+        run: |
           npm run build
 
       # main site
@@ -33,4 +37,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: "eu-central-1"
-          SOURCE_DIR: "app"
+          SOURCE_DIR: "docs"
