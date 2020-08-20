@@ -18,10 +18,10 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
       - name: npm install, build
         run: |
-          rm -rf ./app/styles/main.css
           npm i -g bower
           npm install
           bower install
+          rm -rf styles/main.css
           npm run build
 
       # main site
