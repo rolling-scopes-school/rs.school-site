@@ -7,7 +7,8 @@ $screen-tablet: 767px;
 $screen-phone: 480px;
 $color-yellow: lighten(#f7df1e, 15%);
 $color-ios: lighten(#5fc9f8, 15%);
-$color-android: lighten(#a4c639, 15%) ;
+$color-android: lighten(#a4c639, 15%);
+$color-nodejs: lighten(#9c80fc, 15%);
 
 $color-black: #000000;
 
@@ -60,8 +61,10 @@ main.container {
   font-size: 0.875rem;
   line-height: 1.5;
 
-  &.badge-primary, &.badge-primary-ios,
-  &.badge-primary-android {
+  &.badge-primary,
+  &.badge-primary-ios,
+  &.badge-primary-android,
+  &.badge-primary-nodejs {
     color: $color-black;
     background: $color-yellow;
     text-transform: uppercase;
@@ -75,6 +78,10 @@ main.container {
 
   &.badge-primary-android {
     background: $color-android;
+  }
+
+  &.badge-primary-nodejs {
+    background: $color-nodejs;
   }
 }
 
@@ -92,6 +99,11 @@ mark, .mark {
 .mark-android {
   color: $color-black;
   background: $color-android;
+}
+
+.mark-nodejs {
+  color: $color-black;
+  background: $color-nodejs;
 }
 
 h4.badge-info {
