@@ -9,6 +9,7 @@ $color-yellow: lighten(#f7df1e, 15%);
 $color-ios: lighten(#5fc9f8, 15%);
 $color-android: lighten(#a4c639, 15%);
 $color-nodejs: lighten(#9c80fc, 15%);
+$color-ml: lighten(#f9924f, 15%);
 
 $color-black: #000000;
 
@@ -64,7 +65,8 @@ main.container {
   &.badge-primary,
   &.badge-primary-ios,
   &.badge-primary-android,
-  &.badge-primary-nodejs {
+  &.badge-primary-nodejs,
+  &.badge-primary-ml {
     color: $color-black;
     background: $color-yellow;
     text-transform: uppercase;
@@ -82,6 +84,10 @@ main.container {
 
   &.badge-primary-nodejs {
     background: $color-nodejs;
+  }
+
+  &.badge-primary-ml {
+    background: $color-ml;
   }
 }
 
@@ -104,6 +110,11 @@ mark, .mark {
 .mark-nodejs {
   color: $color-black;
   background: $color-nodejs;
+}
+
+.mark-ml {
+  color: $color-black;
+  background: $color-ml;
 }
 
 h4.badge-info {
