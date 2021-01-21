@@ -98,6 +98,10 @@ mark, .mark {
   padding: 0;
 }
 
+.mark-striped {
+  background: repeating-linear-gradient(45deg, $color-yellow, $color-yellow 20px, #fbf2a5 20px, #fbf2a5 40px);
+}
+
 .mark-ios {
   color: $color-black;
   background: $color-ios;
