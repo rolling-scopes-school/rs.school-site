@@ -5,3 +5,6 @@ bower_components
 test/bower_components
 .idea
 .DS_Store
+.bash_profile
+.zshrc
+npm-shrinkwrap.json
