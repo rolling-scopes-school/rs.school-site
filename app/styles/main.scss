@@ -304,6 +304,14 @@ h4.badge-info {
   }
 }
 
+.card-columns.col-count-4 {
+  column-count: 4;
+
+  @include media-breakpoint-only(lg) {
+    column-count: 2;
+  }
+}
+
 
 /*------------------------------------*\
    PARTNERS List
