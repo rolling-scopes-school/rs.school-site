@@ -304,17 +304,10 @@ h4.badge-info {
     column-count: 3;
   }
   @include media-breakpoint-only(xl) {
-    column-count: 3;
+    column-count: 4;
   }
 }
 
-.card-columns.col-count-4 {
-  column-count: 4;
-
-  @include media-breakpoint-only(lg) {
-    column-count: 2;
-  }
-}
 
 
 /*------------------------------------*\
